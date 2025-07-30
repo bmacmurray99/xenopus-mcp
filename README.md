@@ -28,7 +28,7 @@ Xenopus MCP is a tool that provides an interface to the Screaming Frog SEO Spide
 
 ### Gemini-CLI configuration
 Add the following to ".gemini/settings.json" in your project folder:
-`  
+```json  
 "mcpServers": {
 "xenopus": {
       "type": "stdio",
@@ -36,14 +36,14 @@ Add the following to ".gemini/settings.json" in your project folder:
       "args": ["PATH_TO_XENOPUS_MCP_REPOSITORY/server.py"]
       }
 }
-`
+```
 
 
 
 ### Tools
 
-*   `domain_crawl(domain: str, export_tabs: list, bulk_exports: list, reports: list, output_folder: str = "exports", business_name: str = "default_business_name", config: str = "default.seospider")`: Runs a Screaming Frog crawl on the specified domain.
-*   `post_crawl_export(crawl_file: str, export_tabs: list = [], bulk_exports: list= [], reports: list=[], output_folder: str = "postcrawl-exports")`: Loads a crawl file and exports data.
+*   `domain_crawl`: Runs a Screaming Frog crawl on the specified domain.
+*   `post_crawl_export`: Loads a crawl file and exports data.
 
 ### Resources
 
