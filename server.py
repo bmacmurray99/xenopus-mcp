@@ -164,7 +164,7 @@ def export_header_reference()-> dict:
 @mcp.resource("data://database-id-list")
 def database_id_list ()-> dict:
 	"This resource returns a list of database IDs to be loaded with the post_crawl_export tool"
-	return {"database-ids":os.listdir(str(Path.home())+"./ScreamingFrogSEOSpider/ProjectInstanceData")}
+	return {"database-ids":os.listdir(str(Path.home())+"/.ScreamingFrogSEOSpider/ProjectInstanceData")}
 
 
 
