@@ -10,7 +10,7 @@ Xenopus MCP is a tool that provides an interface to the Screaming Frog SEO Spide
 
 ## Requirements
 
-*   Screaming Frog SEO Spider installed and in your system's PATH.
+*   Screaming Frog SEO Spider installed and in your system's PATH, aliased to `screamingfrogseospider`
 *   A Valid Screaming Frog SEO Spider License
 *   Python 3.
 *   Python MCP SDK
