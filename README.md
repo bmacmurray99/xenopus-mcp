@@ -1,6 +1,6 @@
 # Xenopus MCP
 
-Xenopus MCP is a tool that provides an interface to the Screaming Frog SEO Spider. It allows you to automate crawling and data extraction from websites.
+Xenopus MCP is a tool that provides an interface to the Screaming Frog SEO Spider. It allows you to automate crawling and data extraction from websites. 
 
 ## Features
 
@@ -9,7 +9,7 @@ Xenopus MCP is a tool that provides an interface to the Screaming Frog SEO Spide
 *   Allows AI agents to choose the relevant exports for a given task
 
 ## Requirements
-
+This MCP runs locally and 
 *   Screaming Frog SEO Spider installed and in your system's PATH, aliased to `screamingfrogseospider`
 *   A Valid Screaming Frog SEO Spider License
 *   Python 3.
@@ -49,5 +49,8 @@ Add the following to ".gemini/settings.json" in your project folder:
 
 *   `data://export-header-reference`: Returns a dictionary of available export headers.
 *   `data://database-id-list`: Returns a list of available crawl database IDs.
+
+###Compatibility
+This package has been tested and is working on Linux using Gemini CLI. 
 
 
